@@ -12,17 +12,18 @@ export const styles = StyleSheet.create({
         paddingVertical: 20
     },
     inputContainer: {
+        width: "75%",
         justifyContent: 'center',
         alignItems: 'center',
-        marginHorizontal: 20,
         paddingVertical: 20,
-        paddingLeft: 15,
     },
     label: {
-
+        fontSize: 15,
+        textAlign: 'center',
     },
     input:{
         width: '100%',
+        maxWidth: 40,
         borderBottomColor: '#97A1D8',
         borderBottomWidth: 1,
         minWidth: 70,
@@ -32,7 +33,7 @@ export const styles = StyleSheet.create({
     },
     buttonContainer: {
         flexDirection: 'row',
-        width: '50%',
+        width: '100%',
         justifyContent: 'space-between',
         marginTop: 20
     },

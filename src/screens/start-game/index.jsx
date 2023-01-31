@@ -11,7 +11,6 @@ const StartGame = ({ onHandlerStart }) =>{
     const [selectedNumber, setSelectedNumber] = useState(null);
 
     const onHandlerStartGame = () => {
-        console.log("HOLIIIII");
         onHandlerStart(selectedNumber);
     }
 
@@ -38,7 +37,6 @@ const StartGame = ({ onHandlerStart }) =>{
     }
 
     const Confirmed = () => 
-        //console.log("confirmado?", confirmed)
         confirmed ? (   
             <Card style={styles.confirmedContainer}>
                 <Text style={styles.confirmedTitle}>Número seleccionado</Text>

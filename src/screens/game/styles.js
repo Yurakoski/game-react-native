@@ -18,6 +18,6 @@ export const styles = StyleSheet.create({
     buttonContainer: {
         width: '100%',
         flexDirection: 'row',
-        justifyContent: 'center'
+        justifyContent: 'space-around'
     }
 })
